@@ -1,0 +1,79 @@
+body{
+    background-color: yellow;
+}
+.box1{
+    width:100px;
+    height: 100px;
+    background-color: rgb(18, 221, 18);
+    animation-name: box1;
+    animation-duration: 2s;
+    transition: 2s;
+}
+
+.box1:hover{
+    width:300px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function:linear;
+}
+.box2{
+    width:100px;
+    height: 100px;
+    background-color: rgb(18, 221, 18);
+    transition: 2s;
+}
+.box2:hover{
+    width:300px;
+    height: 300px;
+    transition: width 2s linear 0s, height 1s linear 2s ;
+}
+.box3{
+    width:100px;
+    height: 100px;
+    background-color: rgb(18, 221, 18);
+    transition: 2s;
+}
+.box3:hover{
+    width:300px;
+    transition:width 2s linear 0s;
+}
+.box4{
+    width:100px;
+    height: 100px;
+    background-color: rgb(18, 221, 18);
+    transition: 2s;
+}
+.box4:hover{
+    width:300px;
+    transition: width 2s ease 0s;
+}
+.box5{
+    width:100px;
+    height: 100px;
+    background-color: rgb(18, 221, 18);
+    transition: 2s;
+}
+.box5:hover{
+    width:300px;
+    transition: width 2s ease-in 0s;
+}
+.box6{
+    width:100px;
+    height: 100px;
+    background-color: rgb(18, 221, 18);
+    transition: 2s;
+}
+.box6:hover{
+    width:300px;
+    transition: width 2s ease-out 0s;
+}
+.box7{
+    width:100px;
+    height: 100px;
+    background-color: rgb(18, 221, 18);
+    transition: 2s;
+}
+.box7:hover{
+    width:300px;
+    transition: width 2s ease-in-out 0s;
+}

@@ -1,0 +1,188 @@
+body{
+    background-color: yellow;
+}
+.first{
+    width: 500px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    animation-name: flex-item;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes flex-item{
+    0%{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    }
+    50%{
+        width: 100px;
+        height: 100px;
+        background-color: grey;
+        transform:skewX(20deg)
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        background-color: grey;
+        transform:skewX(-20deg)  
+    }
+}
+.flex-container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+.flex-item1{
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+    animation-name: flex-item1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes flex-item1{
+    0%{
+        width: 100px;
+        height: 100px;
+        background-color: darkgrey;   
+    }
+    50%{
+        width: 100px;
+        height: 100px;
+        background-color: darkgrey; 
+        transform: skewY(20deg);  
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        background-color: darkgrey; 
+        transform: skewY(-20deg);    
+    }
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+.flex-item2{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    animation-name: flex-item2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes flex-item2{
+    from{
+        width: 100px;
+        height: 100px;
+        background-color: grey; 
+    }
+    to{
+        width: 100px;
+        height: 100px;
+        background-color: grey; 
+        transform: rotate(360deg);   
+    }
+}
+.flex-container3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+.flex-item3{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    animation-name: flex-item3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes flex-item3{
+    0%{
+        width: 100px;
+        height: 100px;
+        background-color: grey;  
+    }
+    50%{
+        width: 100px;
+        height: 100px;
+        background-color: grey; 
+        transform: rotateX(50deg);
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        background-color: grey; 
+        transform: rotateX(0deg);
+    }
+}
+.flex-item31{
+    width: 100px;
+    height: 100px;
+    background-color:brown;
+    animation-name: flex-item31;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes flex-item31{
+    0%{
+        width: 100px;
+        height: 100px;
+        background-color:brown;
+        transform: rotateY(0deg); 
+    }
+    50%{
+    width: 100px;
+    height: 100px;
+    background-color:brown;
+    transform: rotateY(65deg);
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        background-color:brown;
+        transform: rotateY(0deg); 
+    }
+}
+.flex-item32{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    animation-name: flex-item32;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes flex-item32 {
+    0%{
+        width: 100px;
+        height: 100px;
+        background-color:green;  
+    }
+    50%{
+        width: 100px;
+        height: 100px;
+        background-color:green; 
+        transform: rotate(-90deg);   
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        background-color:green; 
+        transform: rotate(0deg);   
+    }
+}
+
